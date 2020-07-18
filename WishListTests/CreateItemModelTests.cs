@@ -8,7 +8,7 @@ namespace WishListTests
 {
     public class CreateItemModelTests
     {
-        [Fact(DisplayName = "Create Item Model @create-item-model")]
+        [Fact(DisplayName = "Create Item Models @create-item-model")]
         public void CreateItemModelTest()
         {
             var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "WishList" + Path.DirectorySeparatorChar + "Models" + Path.DirectorySeparatorChar + "Item.cs";
